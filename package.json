@@ -1,7 +1,7 @@
 {
   "name": "memory-card",
   "private": true,
-  "homepage": "https://odinmemorycard.vercel.app/",
+  "homepage": "https://odinmemorycard.vercel.app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
