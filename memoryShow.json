@@ -1,0 +1,62 @@
+[
+  {
+    "displayName": "Benson",
+    "difficulty": "1",
+    "imageUrl": "src/characters/benson.png"
+  },
+  {
+    "displayName": "CJ",
+    "difficulty": "1",
+    "imageUrl": "src/characters/cloudyJay.png"
+  },
+  {
+    "displayName": "Death",
+    "difficulty": "1",
+    "imageUrl": "src/characters/death.png"
+  },
+  {
+    "displayName": "eileen",
+    "difficulty": "1",
+    "imageUrl": "src/characters/eileen.png"
+  },
+  {
+    "displayName": "gene",
+    "difficulty": "1",
+    "imageUrl": "src/characters/gene.png"
+  },
+  {
+    "displayName": "hi five ghost",
+    "difficulty": "1",
+    "imageUrl": "src/characters/hiFiveGhost.png"
+  },
+  {
+    "displayName": "maellard",
+    "difficulty": "1",
+    "imageUrl": "src/characters/maellard.png"
+  },
+  {
+    "displayName": "Margeret",
+    "difficulty": "1",
+    "imageUrl": "src/characters/margeret.png"
+  },
+  {
+    "displayName": "Mordecai",
+    "difficulty": "1",
+    "imageUrl": "src/characters/mordecai.png"
+  },
+  {
+    "displayName": "Muscle Man",
+    "difficulty": "1",
+    "imageUrl": "src/characters/muscleMan.png"
+  },
+  {
+    "displayName": "Pops",
+    "difficulty": "1",
+    "imageUrl": "src/characters/pops.png"
+  },
+  {
+    "displayName": "thomas",
+    "difficulty": "1",
+    "imageUrl": "src/characters/thomas.png"
+  }
+]

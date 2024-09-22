@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "memoryShowText";
+  src: url("fonts/memoryShowText.woff2") format("woff2"),
+    url("fonts/memoryShowText.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "memoryTimeScore";
+  src: url("fonts/memoryTimeScore.woff2") format("woff2"),
+    url("fonts/memoryTimeScore.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "memoryTimeLogo";
+  src: url("fonts/memoryTimeLogo.woff2") format("woff2"),
+    url("fonts/memoryTimeLogo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "memoryShowStart";
+  src: url("fonts/memoryShowStart.woff2") format("woff2"),
+    url("fonts/memoryShowStart.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "memoryTimeText";
+  src: url("fonts/memoryTimeText.woff2") format("woff2"),
+    url("fonts/memoryTimeText.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.memory-show-logo {
+  color: #fefefe;
+
+  text-shadow: -1px 2px 0px rgba(255, 255, 255, 1),
+    -1px 2px 0px rgba(145, 140, 144, 1), -1px 2px 0px rgba(145, 140, 144, 1),
+    -2px 2px 0px rgba(145, 140, 144, 1), 1px 1px 30px rgba(255, 255, 255, 0.8),
+    1px 1px 20px rgba(255, 255, 255, 0.8);
+
+  -webkit-text-stroke-color: rgba(145, 140, 144, 0.6);
+  -webkit-text-stroke-width: 0.75px;
+}
