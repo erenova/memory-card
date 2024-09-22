@@ -2,16 +2,17 @@ import { useState, useEffect } from "react";
 import Loader from "./Loader";
 import Scoreboard from "./Scoreboard";
 import { FaExchangeAlt } from "react-icons/fa";
-import { MdQuestionMark, MdMusicOff } from "react-icons/md";
-import { MdMusicNote } from "react-icons/md";
+
 import ActiveGamePage from "./ActiveGamePage";
+import EndGamePage from "./EndGamePage";
+import Popover from "./Popover";
 
 const PageMemoryShow = ({ setPage }) => {
   const [loading, setLoading] = useState(true);
   const [showPage, setShowPage] = useState("main");
   const [difficulty, setDifficulty] = useState("easy");
   const [score, setScore] = useState(0);
-  const [highestScore, setHighestScore] = useState(0);
+  const [highScore, sethighScore] = useState(0);
 
   useEffect(() => {
     // Create a new image object for preloading
@@ -33,7 +34,7 @@ const PageMemoryShow = ({ setPage }) => {
         <Loader />
       ) : (
         <>
-          <div className="fixed top-0 w-full min-h-full -z-20 lg:bg-memoryShow bg-memoryShowMobile bg-cover select-none pointer-events-none"></div>
+          <div className="fixed top-0 w-full min-h-screen -z-20 lg:bg-memoryShow bg-memoryShowMobile bg-cover select-none pointer-events-none"></div>
           <div className="w-full h-full text-center pt-8 flex  items-center flex-col text-white font-memoryShowText text-3xl">
             <div className="container flex flex-col justify-center items-center">
               <div className="pb-6 text-white ">
@@ -43,10 +44,14 @@ const PageMemoryShow = ({ setPage }) => {
                 <div
                   className={
                     "lg:absolute lg:left-40 lg:top-32 lg:text-6xl " +
-                    (showPage === "game" ? "" : "hidden")
+                    (showPage === "game" ||
+                    showPage === "lose" ||
+                    showPage === "win"
+                      ? "visible"
+                      : "hidden")
                   }
                 >
-                  <Scoreboard currentScore="4" highScore="15" />
+                  <Scoreboard currentScore={score} highScore={highScore} />
                 </div>
               </div>
               {showPage === "difficulty" && (
@@ -54,13 +59,16 @@ const PageMemoryShow = ({ setPage }) => {
                   <div className="text-5xl">difficulty</div>
                   <div className="grid grid-cols-3 grid-rows-[minmax(0,1fr),150px]">
                     <div className="self-end place-self-center">
-                      <img
-                        src="src/assets/rigby.png"
-                        alt=""
-                        className="h-[100px] md:h-[140px]"
-                      />
+                      <label htmlFor="easy">
+                        <img
+                          src="src/assets/rigby.png"
+                          alt=""
+                          className="h-[100px] md:h-[140px] cursor-pointer"
+                        />
+                      </label>
                     </div>
                     <button
+                      id="easy"
                       onClick={() => {
                         setDifficulty("easy");
                         setShowPage("game");
@@ -70,13 +78,16 @@ const PageMemoryShow = ({ setPage }) => {
                       LAZY
                     </button>
                     <div className="self-end place-self-center">
-                      <img
-                        src="src/assets/skips.png"
-                        alt=""
-                        className="h-[140px] md:h-[200px]"
-                      />
+                      <label htmlFor="medium">
+                        <img
+                          src="src/assets/skips.png"
+                          alt=""
+                          className="h-[140px] md:h-[200px] cursor-pointer"
+                        />
+                      </label>
                     </div>
                     <button
+                      id="medium"
                       onClick={() => {
                         setDifficulty("medium");
                         setShowPage("game");
@@ -86,13 +97,16 @@ const PageMemoryShow = ({ setPage }) => {
                       TOUGH
                     </button>
                     <div className="self-end place-self-center">
-                      <img
-                        src="src/assets/antipops.png"
-                        alt=""
-                        className="h-[200px] md:h-[280px]"
-                      />
+                      <label htmlFor="hard">
+                        <img
+                          src="src/assets/antipops.png"
+                          alt=""
+                          className="h-[200px] md:h-[280px] cursor-pointer"
+                        />
+                      </label>
                     </div>
                     <button
+                      id="hard"
                       onClick={() => {
                         setDifficulty("hard");
                         setShowPage("game");
@@ -116,16 +130,8 @@ const PageMemoryShow = ({ setPage }) => {
                     <span className="drop-shadow-lg">Start</span>
                   </button>
                   <div className="pt-8 flex gap-4 lg:gap-8 fixed bottom-32 lg:bottom-20 lg:right-20">
-                    <button className=" bg-memoryShowWhite rounded-md text-4xl lg:text-5xl p-2 hover:ring-memoryShowBlue hover:ring-1">
-                      <span className="drop-shadow-lg text-[#692b6f]">
-                        <MdMusicOff />
-                      </span>
-                    </button>
-                    <button className=" bg-memoryShowWhite rounded-md text-4xl lg:text-5xl p-2 hover:ring-memoryShowBlue hover:ring-1">
-                      <span className="drop-shadow-lg text-[#c2759d]">
-                        <MdQuestionMark />
-                      </span>
-                    </button>
+                    <Popover />
+
                     <button
                       onClick={() => {
                         setPage("memoryTime");
@@ -143,10 +149,27 @@ const PageMemoryShow = ({ setPage }) => {
               {showPage === "game" && (
                 <ActiveGamePage
                   difficulty={difficulty}
-                  setHighestScore={setHighestScore}
+                  sethighScore={sethighScore}
                   setScore={setScore}
                   score={score}
-                  highestScore={highestScore}
+                  highScore={highScore}
+                  setShowPage={setShowPage}
+                />
+              )}
+              {showPage === "win" && (
+                <EndGamePage
+                  gameState="win"
+                  difficulty={difficulty}
+                  setShowPage={setShowPage}
+                  setScore={setScore}
+                />
+              )}
+              {showPage === "lose" && (
+                <EndGamePage
+                  gameState="lose"
+                  difficulty={difficulty}
+                  setShowPage={setShowPage}
+                  setScore={setScore}
                 />
               )}
             </div>

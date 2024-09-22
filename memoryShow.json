@@ -1,8 +1,28 @@
 [
   {
+    "displayName": "Ace Balthazar",
+    "imageUrl": "src/characters/aceBalthazar.png"
+  },
+  {
+    "displayName": "Barry",
+    "imageUrl": "src/characters/barry.png"
+  },
+  {
     "displayName": "Benson",
     "difficulty": "1",
     "imageUrl": "src/characters/benson.png"
+  },
+  {
+    "displayName": "Bounty Hunter",
+    "imageUrl": "src/characters/bountyHunter.png"
+  },
+  {
+    "displayName": "Buttonwillow Mcbuttonwillow",
+    "imageUrl": "src/characters/buttonwillowMcbuttonwillow.png"
+  },
+  {
+    "displayName": "Chuck",
+    "imageUrl": "src/characters/chuck.png"
   },
   {
     "displayName": "CJ",
@@ -10,14 +30,78 @@
     "imageUrl": "src/characters/cloudyJay.png"
   },
   {
-    "displayName": "Death",
-    "difficulty": "1",
-    "imageUrl": "src/characters/death.png"
+    "displayName": "Colonel Rawls",
+    "imageUrl": "src/characters/colonelRawls.png"
   },
   {
-    "displayName": "eileen",
+    "displayName": "Dad Five Ghost",
+    "imageUrl": "src/characters/dadFiveGhost.png"
+  },
+  {
+    "displayName": "Dale",
+    "imageUrl": "src/characters/dale.png"
+  },
+  {
+    "displayName": "David",
+    "imageUrl": "src/characters/david.png"
+  },
+  {
+    "displayName": "Death",
+    "difficulty": "1",
+    "imageUrl": "src/characters/Death.png"
+  },
+  {
+    "displayName": "Denise Smith",
+    "imageUrl": "src/characters/deniseSmith.png"
+  },
+  {
+    "displayName": "Desdemona",
+    "imageUrl": "src/characters/desdemona.png"
+  },
+  {
+    "displayName": "Destoyer Of Worlds",
+    "imageUrl": "src/characters/destoyerOfWorlds.png"
+  },
+  {
+    "displayName": "Dr Henry",
+    "imageUrl": "src/characters/drHenry.png"
+  },
+  {
+    "displayName": "Dr Langer",
+    "imageUrl": "src/characters/drLanger.png"
+  },
+  {
+    "displayName": "Eggscellent Knight",
+    "imageUrl": "src/characters/eggscellentKnight.png"
+  },
+  {
+    "displayName": "Eileen",
     "difficulty": "1",
     "imageUrl": "src/characters/eileen.png"
+  },
+  {
+    "displayName": "El Diablo",
+    "imageUrl": "src/characters/elDiablo.png"
+  },
+  {
+    "displayName": "Frank Smith",
+    "imageUrl": "src/characters/frankSmith.png"
+  },
+  {
+    "displayName": "Future Mordecai",
+    "imageUrl": "src/characters/futureMordecai.png"
+  },
+  {
+    "displayName": "Gary",
+    "imageUrl": "src/characters/gary.png"
+  },
+  {
+    "displayName": "Gbf Jr",
+    "imageUrl": "src/characters/gbfJr.png"
+  },
+  {
+    "displayName": "Gbf",
+    "imageUrl": "src/characters/gbf.png"
   },
   {
     "displayName": "gene",
@@ -25,9 +109,41 @@
     "imageUrl": "src/characters/gene.png"
   },
   {
+    "displayName": "God Of Basketball",
+    "imageUrl": "src/characters/godOfBasketball.png"
+  },
+  {
+    "displayName": "Headmaster Bennett",
+    "imageUrl": "src/characters/headmasterBennett.png"
+  },
+  {
     "displayName": "hi five ghost",
     "difficulty": "1",
     "imageUrl": "src/characters/hiFiveGhost.png"
+  },
+  {
+    "displayName": "John Cousin",
+    "imageUrl": "src/characters/johnCousin.png"
+  },
+  {
+    "displayName": "John Smith",
+    "imageUrl": "src/characters/johnSmith.png"
+  },
+  {
+    "displayName": "Jones",
+    "imageUrl": "src/characters/jones.png"
+  },
+  {
+    "displayName": "Klogbane The Destroyer",
+    "imageUrl": "src/characters/klogbaneTheDestroyer.png"
+  },
+  {
+    "displayName": "Lemon Chef",
+    "imageUrl": "src/characters/lemonChef.png"
+  },
+  {
+    "displayName": "Low Five Ghost",
+    "imageUrl": "src/characters/lowFiveGhost.png"
   },
   {
     "displayName": "maellard",
@@ -35,14 +151,34 @@
     "imageUrl": "src/characters/maellard.png"
   },
   {
+    "displayName": "Maître d'",
+    "imageUrl": "src/characters/Maître d'.png"
+  },
+  {
     "displayName": "Margeret",
     "difficulty": "1",
     "imageUrl": "src/characters/margeret.png"
   },
   {
+    "displayName": "Master Prank Caller",
+    "imageUrl": "src/characters/masterPrankCaller.png"
+  },
+  {
     "displayName": "Mordecai",
-    "difficulty": "1",
     "imageUrl": "src/characters/mordecai.png"
+  },
+
+  {
+    "displayName": "Mr Bossman",
+    "imageUrl": "src/characters/mrBossman.png"
+  },
+  {
+    "displayName": "Mr Ross",
+    "imageUrl": "src/characters/mrRoss.png"
+  },
+  {
+    "displayName": "Muscle Dad",
+    "imageUrl": "src/characters/muscleDad.png"
   },
   {
     "displayName": "Muscle Man",
@@ -50,13 +186,98 @@
     "imageUrl": "src/characters/muscleMan.png"
   },
   {
+    "displayName": "Natalia",
+    "imageUrl": "src/characters/natalia.png"
+  },
+  {
+    "displayName": "Night Owl",
+    "imageUrl": "src/characters/nightOwl.png"
+  },
+  {
+    "displayName": "Pam",
+    "imageUrl": "src/characters/pam.png"
+  },
+  {
+    "displayName": "Party Horse",
+    "imageUrl": "src/characters/partyHorse.png"
+  },
+  {
+    "displayName": "Party Pete",
+    "imageUrl": "src/characters/partyPete.png"
+  },
+  {
+    "displayName": "Percy",
+    "imageUrl": "src/characters/percy.png"
+  },
+  {
     "displayName": "Pops",
     "difficulty": "1",
     "imageUrl": "src/characters/pops.png"
   },
   {
-    "displayName": "thomas",
+    "displayName": "Principal Dean",
+    "imageUrl": "src/characters/principalDean.png"
+  },
+  {
+    "displayName": "Quips",
+    "imageUrl": "src/characters/quips.png"
+  },
+
+  {
+    "displayName": "Sad Sax Guy",
+    "imageUrl": "src/characters/sadSaxGuy.png"
+  },
+  {
+    "displayName": "Sensai",
+    "imageUrl": "src/characters/sensai.png"
+  },
+  {
+    "displayName": "Sir Gabelthorp",
+    "imageUrl": "src/characters/sirGabelthorp.png"
+  },
+  {
+    "displayName": "Stag Man",
+    "imageUrl": "src/characters/stagMan.png"
+  },
+  {
+    "displayName": "Starla",
+    "imageUrl": "src/characters/starla.png"
+  },
+  {
+    "displayName": "Stef",
+    "imageUrl": "src/characters/stef.png"
+  },
+  {
+    "displayName": "Susan",
+    "imageUrl": "src/characters/susan.png"
+  },
+  {
+    "displayName": "Techmo",
+    "imageUrl": "src/characters/techmo.png"
+  },
+  {
+    "displayName": "The Hammer",
+    "imageUrl": "src/characters/theHammer.png"
+  },
+  {
+    "displayName": "The Wizard",
+    "imageUrl": "src/characters/theWizard.png"
+  },
+  {
+    "displayName": "Thomas",
     "difficulty": "1",
     "imageUrl": "src/characters/thomas.png"
+  },
+  {
+    "displayName": "Uncle Steve",
+    "imageUrl": "src/characters/uncleSteve.png"
+  },
+  {
+    "displayName": "Unicorn",
+    "imageUrl": "src/characters/unicorn.png"
+  },
+  {
+    "displayName": "William",
+    "imageUrl": "src/characters/william.png"
   }
 ]

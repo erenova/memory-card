@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import memoryShowCharacters from "/memoryShow.json";
 import memoryTimeCharacters from "/memoryTime.json";
 
@@ -23,13 +23,15 @@ function getRandomCharacters(arr, num, difficulty) {
 
 let selectedCharacters = [];
 
-function playHand(charName) {
-  if (selectedCharacters.includes(charName)) {
-    alert("Your Score is: " + score);
-  }
-}
-
-const ActiveGamePage = ({ difficulty, setScore, setHighestScore }) => {
+const ActiveGamePage = ({
+  difficulty,
+  score,
+  setScore,
+  highScore,
+  sethighScore,
+  setShowPage,
+  theme,
+}) => {
   let cardNum;
   switch (difficulty) {
     case "easy":
@@ -42,32 +44,63 @@ const ActiveGamePage = ({ difficulty, setScore, setHighestScore }) => {
       cardNum = 14;
       break;
   }
+  let characters =
+    theme === "memoryTime" ? memoryTimeCharacters : memoryShowCharacters;
+  useEffect(() => {
+    setScore(0);
+  }, [setScore]);
+  function clearGame() {
+    selectedCharacters = [];
+  }
   const [cards, setCards] = useState(
-    getRandomCharacters(memoryShowCharacters, cardNum, difficulty),
+    getRandomCharacters(characters, cardNum, difficulty),
   );
   const handleShuffle = () => {
-    const newShuffledCards = getRandomCharacters(
-      memoryShowCharacters,
-      cardNum,
-      difficulty,
-    );
+    let newShuffledCards = shuffleArray([...cards]);
+    if (difficulty === "easy")
+      newShuffledCards = getRandomCharacters(characters, cardNum, difficulty);
     setCards(newShuffledCards);
   };
-
+  function playHand(charName) {
+    if (selectedCharacters.includes(charName)) {
+      setShowPage("lose");
+      clearGame();
+    } else {
+      selectedCharacters.push(charName);
+      setScore(score + 1);
+      score >= highScore ? sethighScore(score + 1) : null;
+      if (score + 1 === cardNum) {
+        setShowPage("win");
+        clearGame();
+      } else {
+        handleShuffle();
+      }
+    }
+  }
   return (
-    <div className="flex flex-wrap gap-4 justify-center lg:grid lg:grid-cols-4 pb-10">
+    <div
+      className={
+        "flex flex-wrap gap-4 justify-center lg:grid lg:grid-cols-4 pb-10 " +
+        (theme === "memoryTime" ? "text-lg" : "")
+      }
+    >
       {cards.map((character, index) => {
         return (
-          <button onClick={handleShuffle} key={index}>
+          <button
+            onClick={() => {
+              playHand(character.displayName);
+            }}
+            key={index}
+          >
             <div className="bg-memoryShowWhite rounded-lg h-60 w-40 flex flex-col ">
-              <div className="m-0 p-0 border-b-black border-b-[1px] text-black">
+              <div className="m-0 p-0 border-b-black border-b-[1px] text-black truncate">
                 {character.displayName}
               </div>
 
               <img
                 src={character.imageUrl}
                 alt={character.displayName}
-                className=" object-contain w-full h-[80%]"
+                className="object-contain w-full h-[80%]"
               />
             </div>
           </button>
