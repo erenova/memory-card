@@ -15,9 +15,9 @@ const PageSelection = ({ setPage }) => {
     };
 
     const imageSources = [
-      process.env.PUBLIC_URL + "src/assets/memoryTimeCrew.png",
-      process.env.PUBLIC_URL + "src/assets/memoryShowCrew.png",
-      process.env.PUBLIC_URL + "src/assets/memoryTimeLogo.png",
+      "./assets/memoryShowBg.png",
+      "./assets/memoryShowCrew.png",
+      "./assets/memoryTimeLogo.png",
     ];
 
     const imagePromises = imageSources.map(loadImage);
@@ -67,7 +67,7 @@ const PageSelection = ({ setPage }) => {
                   className="cursor-pointer w-[300px] sm:w-[400px] lg:w-[480px] place-self-center"
                 >
                   <img
-                    src="src/assets/memoryShowCrew.png"
+                    src="./assets/memoryShowCrew.png"
                     className="rounded-[10px]"
                     alt=""
                   />
@@ -76,7 +76,7 @@ const PageSelection = ({ setPage }) => {
               <div className="flex flex-col justify-center lg:grid lg:grid-rows-2">
                 <span className="place-self-center lg:place-self-auto lg:place-content-end lg:justify-self-center  pb-6 ">
                   <img
-                    src="src/assets/memoryTimeLogojake.png"
+                    src="./assets/memoryTimeLogojake.png"
                     onClick={() => {
                       setPage("memoryTime");
                       console.log("page: Memory Time");
@@ -95,7 +95,7 @@ const PageSelection = ({ setPage }) => {
                 >
                   <img
                     className="cursor-pointer rounded-[10px] "
-                    src="src/assets/memoryTimeCrew.png"
+                    src="./assets/memoryTimeCrew.png"
                     alt=""
                   />
                 </div>
