@@ -19,7 +19,7 @@ const EndGamePage = ({
               </>
             ) : (
               <>
-                <p>You Killed Rigby</p>
+                <p>You beat the Garrett Bobby Ferguson</p>
                 <img className="max-h-80" src="src/gifs/easyWin.webp" />
               </>
             )}
