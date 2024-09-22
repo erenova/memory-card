@@ -1,273 +1,273 @@
 [
   {
     "displayName": "Abracadaniel",
-    "imageUrl": "src/characters/abracadaniel.png"
+    "imageUrl": "./characters/abracadaniel.png"
   },
   {
     "displayName": "Abracajamiel",
-    "imageUrl": "src/characters/abracajamiel.png"
+    "imageUrl": "./characters/abracajamiel.png"
   },
   {
     "displayName": "Aptwe",
-    "imageUrl": "src/characters/aptwe.png"
+    "imageUrl": "./characters/aptwe.png"
   },
 
   {
     "displayName": "Bmo",
     "difficulty": "1",
-    "imageUrl": "src/characters/bmo.png"
+    "imageUrl": "./characters/bmo.png"
   },
   {
     "displayName": "Bucket Knight",
-    "imageUrl": "src/characters/bucketKnight.png"
+    "imageUrl": "./characters/bucketKnight.png"
   },
   {
     "displayName": "Canyon",
-    "imageUrl": "src/characters/canyon.png"
+    "imageUrl": "./characters/canyon.png"
   },
   {
     "displayName": "Choose Goose",
-    "imageUrl": "src/characters/chooseGoose.png"
+    "imageUrl": "./characters/chooseGoose.png"
   },
   {
     "displayName": "Cinnamon Bun Flame",
-    "imageUrl": "src/characters/cinnamonBunFlame.png"
+    "imageUrl": "./characters/cinnamonBunFlame.png"
   },
   {
     "displayName": "Cinnamon Bun",
-    "imageUrl": "src/characters/CinnamonBun.png"
+    "imageUrl": "./characters/CinnamonBun.png"
   },
   {
     "displayName": "Clock Titans",
-    "imageUrl": "src/characters/clockTitans.png"
+    "imageUrl": "./characters/clockTitans.png"
   },
   {
     "displayName": "Cobbler",
-    "imageUrl": "src/characters/Cobbler.png"
+    "imageUrl": "./characters/Cobbler.png"
   },
   {
     "displayName": "Cosmic Owl",
-    "imageUrl": "src/characters/cosmicOwl.png"
+    "imageUrl": "./characters/cosmicOwl.png"
   },
   {
     "displayName": "Death",
     "difficulty": "1",
-    "imageUrl": "src/characters/death.png"
+    "imageUrl": "./characters/death.png"
   },
   {
     "displayName": "Demon Cat",
-    "imageUrl": "src/characters/DemonCat.png"
+    "imageUrl": "./characters/DemonCat.png"
   },
   {
     "displayName": "Demon Guard",
-    "imageUrl": "src/characters/demonGuard.png"
+    "imageUrl": "./characters/demonGuard.png"
   },
   {
     "displayName": "Dj Flame",
-    "imageUrl": "src/characters/djFlame.png"
+    "imageUrl": "./characters/djFlame.png"
   },
   {
     "displayName": "Evil Guy",
-    "imageUrl": "src/characters/Evil Guy.png"
+    "imageUrl": "./characters/Evil Guy.png"
   },
   {
     "displayName": "Fern",
     "difficulty": "1",
-    "imageUrl": "src/characters/fern.png"
+    "imageUrl": "./characters/fern.png"
   },
   {
     "displayName": "Finn The Human",
     "difficulty": "1",
-    "imageUrl": "src/characters/finnTheHuman.png"
+    "imageUrl": "./characters/finnTheHuman.png"
   },
   {
     "displayName": "Fionna",
-    "imageUrl": "src/characters/fionna.png"
+    "imageUrl": "./characters/fionna.png"
   },
   {
     "displayName": "Fire Count",
-    "imageUrl": "src/characters/fireCount.png"
+    "imageUrl": "./characters/fireCount.png"
   },
   {
     "displayName": "Flambo",
-    "imageUrl": "src/characters/flambo.png"
+    "imageUrl": "./characters/flambo.png"
   },
   {
     "displayName": "Flame Lord",
-    "imageUrl": "src/characters/flameLord.png"
+    "imageUrl": "./characters/flameLord.png"
   },
   {
     "displayName": "Flame Queen",
-    "imageUrl": "src/characters/flameQueen.png"
+    "imageUrl": "./characters/flameQueen.png"
   },
   {
     "displayName": "Floradulcina",
-    "imageUrl": "src/characters/Floradulcina.png"
+    "imageUrl": "./characters/Floradulcina.png"
   },
   {
     "displayName": "Globetty",
-    "imageUrl": "src/characters/globetty.png"
+    "imageUrl": "./characters/globetty.png"
   },
   {
     "displayName": "Gnome Knight",
-    "imageUrl": "src/characters/GnomeKnight.png"
+    "imageUrl": "./characters/GnomeKnight.png"
   },
   {
     "displayName": "Goliad",
-    "imageUrl": "src/characters/goliad.png"
+    "imageUrl": "./characters/goliad.png"
   },
   {
     "displayName": "Gork",
-    "imageUrl": "src/characters/gork.png"
+    "imageUrl": "./characters/gork.png"
   },
   {
     "displayName": "Gunter",
     "difficulty": "1",
-    "imageUrl": "src/characters/gunter.png"
+    "imageUrl": "./characters/gunter.png"
   },
   {
     "displayName": "Huntress Wizard",
-    "imageUrl": "src/characters/huntressWizard.png"
+    "imageUrl": "./characters/huntressWizard.png"
   },
   {
     "displayName": "Jake",
-    "imageUrl": "src/characters/jake.png"
+    "imageUrl": "./characters/jake.png"
   },
   {
     "displayName": "Jake The Dog",
     "difficulty": "1",
-    "imageUrl": "src/characters/jakeTheDog.png"
+    "imageUrl": "./characters/jakeTheDog.png"
   },
   {
     "displayName": "Joshua The Dog",
-    "imageUrl": "src/characters/joshuaTheDog.png"
+    "imageUrl": "./characters/joshuaTheDog.png"
   },
   {
     "displayName": "King Man",
-    "imageUrl": "src/characters/kingMan.png"
+    "imageUrl": "./characters/kingMan.png"
   },
   {
     "displayName": "Kingof Ooo",
-    "imageUrl": "src/characters/kingofOoo.png"
+    "imageUrl": "./characters/kingofOoo.png"
   },
   {
     "displayName": "Lady Raincorn",
     "difficulty": "1",
-    "imageUrl": "src/characters/ladyRaincorn.png"
+    "imageUrl": "./characters/ladyRaincorn.png"
   },
   {
     "displayName": "Lava Eye",
-    "imageUrl": "src/characters/lavaEye.png"
+    "imageUrl": "./characters/lavaEye.png"
   },
   {
     "displayName": "Lava Man",
-    "imageUrl": "src/characters/lavaMan.png"
+    "imageUrl": "./characters/lavaMan.png"
   },
   {
     "displayName": "Lemon Camel",
-    "imageUrl": "src/characters/lemonCamel.png"
+    "imageUrl": "./characters/lemonCamel.png"
   },
   {
     "displayName": "Lemon Grab",
     "difficulty": "1",
-    "imageUrl": "src/characters/lemonGrab.png"
+    "imageUrl": "./characters/lemonGrab.png"
   },
   {
     "displayName": "Lich",
     "difficulty": "1",
-    "imageUrl": "src/characters/lich.png"
+    "imageUrl": "./characters/lich.png"
   },
   {
     "displayName": "Lieutenant Gamergate",
-    "imageUrl": "src/characters/LieutenantGamergate.png"
+    "imageUrl": "./characters/LieutenantGamergate.png"
   },
   {
     "displayName": "Life Giving Magus",
-    "imageUrl": "src/characters/lifeGivingMagus.png"
+    "imageUrl": "./characters/lifeGivingMagus.png"
   },
   {
     "displayName": "Life",
-    "imageUrl": "src/characters/life.png"
+    "imageUrl": "./characters/life.png"
   },
   {
     "displayName": "Lumpy Space Princess",
     "difficulty": "1",
-    "imageUrl": "src/characters/lumpySpacePrincess.png"
+    "imageUrl": "./characters/lumpySpacePrincess.png"
   },
   {
     "displayName": "Magic Man",
-    "imageUrl": "src/characters/magicMan.png"
+    "imageUrl": "./characters/magicMan.png"
   },
   {
     "displayName": "Mannish Man",
-    "imageUrl": "src/characters/mannishMan.png"
+    "imageUrl": "./characters/mannishMan.png"
   },
   {
     "displayName": "Marceline",
-    "imageUrl": "src/characters/marceline.png"
+    "imageUrl": "./characters/marceline.png"
   },
   {
     "displayName": "Martin Mertens",
-    "imageUrl": "src/characters/martinMertens.png"
+    "imageUrl": "./characters/martinMertens.png"
   },
   {
     "displayName": "Minerva Campbell",
-    "imageUrl": "src/characters/minervaCampbell.png"
+    "imageUrl": "./characters/minervaCampbell.png"
   },
   {
     "displayName": "Party God",
-    "imageUrl": "src/characters/partyGod.png"
+    "imageUrl": "./characters/partyGod.png"
   },
   {
     "displayName": "Patience St.Pim",
-    "imageUrl": "src/characters/PatienceSt.Pim.png"
+    "imageUrl": "./characters/PatienceSt.Pim.png"
   },
   {
     "displayName": "Peace Master",
-    "imageUrl": "src/characters/peaceMaster.png"
+    "imageUrl": "./characters/peaceMaster.png"
   },
   {
     "displayName": "Peppermint Butler",
-    "imageUrl": "src/characters/peppermintButler.png"
+    "imageUrl": "./characters/peppermintButler.png"
   },
   {
     "displayName": "Princess Bubblegum",
-    "imageUrl": "src/characters/princessBubblegum.png"
+    "imageUrl": "./characters/princessBubblegum.png"
   },
   {
     "displayName": "Prismo",
-    "imageUrl": "src/characters/prismo.png"
+    "imageUrl": "./characters/prismo.png"
   },
   {
     "displayName": "Punch Bowl",
-    "imageUrl": "src/characters/punchBowl.png"
+    "imageUrl": "./characters/punchBowl.png"
   },
   {
     "displayName": "Reaper",
-    "imageUrl": "src/characters/reaper.png"
+    "imageUrl": "./characters/reaper.png"
   },
   {
     "displayName": "Ricardio",
-    "imageUrl": "src/characters/ricardio.png"
+    "imageUrl": "./characters/ricardio.png"
   },
 
   {
     "displayName": "Simon Petrikov",
     "difficulty": "1",
-    "imageUrl": "src/characters/simonPetrikov.png"
+    "imageUrl": "./characters/simonPetrikov.png"
   },
 
   {
     "displayName": "Snail",
-    "imageUrl": "src/characters/Snail.png"
+    "imageUrl": "./characters/Snail.png"
   },
   {
     "displayName": "The Stag",
-    "imageUrl": "src/characters/theStag.png"
+    "imageUrl": "./characters/theStag.png"
   },
   {
     "displayName": "Tree Trunks",
     "difficulty": "1",
-    "imageUrl": "src/characters/treeTrunks.png"
+    "imageUrl": "./characters/treeTrunks.png"
   }
 ]

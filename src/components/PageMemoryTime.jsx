@@ -19,8 +19,8 @@ const PageMemoryShow = ({ setPage }) => {
     const img = new Image();
     img.src =
       window.innerWidth >= 1024
-        ? "src/assets/memoryTimeBg.png"
-        : "src/assets/memoryTimeBgMobile.png";
+        ? "./assets/memoryTimeBg.png"
+        : "./assets/memoryTimeBgMobile.png";
 
     img.onload = () => {
       // When the image is fully loaded, set loading to false
@@ -41,7 +41,7 @@ const PageMemoryShow = ({ setPage }) => {
                 <div className=" select-none">
                   <img
                     className="w-[350px] lg:w-[450px]"
-                    src="src/assets/memoryTimeLogojake.png"
+                    src="./assets/memoryTimeLogojake.png"
                     alt=""
                   />
                 </div>
@@ -66,7 +66,7 @@ const PageMemoryShow = ({ setPage }) => {
                     <div className="self-end place-self-center">
                       <label htmlFor="easy">
                         <img
-                          src="src/assets/bananaGuard.png"
+                          src="./assets/bananaGuard.png"
                           alt=""
                           className="h-[100px] md:h-[180px] cursor-pointer"
                         />
@@ -85,7 +85,7 @@ const PageMemoryShow = ({ setPage }) => {
                     <div className="self-end place-self-center">
                       <label htmlFor="medium">
                         <img
-                          src="src/assets/flameGuard.png"
+                          src="./assets/flameGuard.png"
                           alt=""
                           className="h-[140px] md:h-[200px] cursor-pointer"
                         />
@@ -104,7 +104,7 @@ const PageMemoryShow = ({ setPage }) => {
                     <div className="self-end place-self-center">
                       <label htmlFor="hard">
                         <img
-                          src="src/assets/scarab.png"
+                          src="./assets/scarab.png"
                           alt=""
                           className="h-[150px] md:h-[200px] cursor-pointer"
                         />

@@ -20,7 +20,7 @@ const EndGamePage = ({
             ) : (
               <>
                 <p>You beat the Garrett Bobby Ferguson</p>
-                <img className="max-h-80" src="src/gifs/easyWin.webp" />
+                <img className="max-h-80" src="./gifs/easyWin.webp" />
               </>
             )}
           </>
@@ -34,7 +34,7 @@ const EndGamePage = ({
             ) : (
               <>
                 <p>You Killed Rigby</p>
-                <img className="max-h-80" src="src/gifs/easyLose.webp" />
+                <img className="max-h-80" src="./gifs/easyLose.webp" />
               </>
             )}
           </>
@@ -49,7 +49,7 @@ const EndGamePage = ({
               <>
                 {" "}
                 <p>You beat the KLORGBANE</p>{" "}
-                <img className="max-h-80" src="src/gifs/easyWin.webp" />
+                <img className="max-h-80" src="./gifs/easyWin.webp" />
               </>
             )}
           </>
@@ -63,7 +63,7 @@ const EndGamePage = ({
             ) : (
               <>
                 <p>You Killed Rigby</p>
-                <img className="max-h-80" src="src/gifs/easyLose.webp" />
+                <img className="max-h-80" src="./gifs/easyLose.webp" />
               </>
             )}
           </>
@@ -76,7 +76,7 @@ const EndGamePage = ({
               </>
             ) : (
               <>
-                <img className="max-h-80" src="src/gifs/hardWin.gif" />
+                <img className="max-h-80" src="./gifs/hardWin.gif" />
               </>
             )}
           </>
@@ -89,7 +89,7 @@ const EndGamePage = ({
               </>
             ) : (
               <>
-                <img className="max-h-80" src="src/gifs/hardLose.gif" />
+                <img className="max-h-80" src="./gifs/hardLose.gif" />
               </>
             )}
           </>

@@ -19,8 +19,8 @@ const PageMemoryShow = ({ setPage }) => {
     const img = new Image();
     img.src =
       window.innerWidth >= 1024
-        ? "src/assets/memoryShowBg.png"
-        : "src/assets/memoryShowBgMobile.png";
+        ? "./assets/memoryShowBg.png"
+        : "./assets/memoryShowBgMobile.png";
 
     img.onload = () => {
       // When the image is fully loaded, set loading to false
@@ -61,7 +61,7 @@ const PageMemoryShow = ({ setPage }) => {
                     <div className="self-end place-self-center">
                       <label htmlFor="easy">
                         <img
-                          src="src/assets/rigby.png"
+                          src="./assets/rigby.png"
                           alt=""
                           className="h-[100px] md:h-[140px] cursor-pointer"
                         />
@@ -80,7 +80,7 @@ const PageMemoryShow = ({ setPage }) => {
                     <div className="self-end place-self-center">
                       <label htmlFor="medium">
                         <img
-                          src="src/assets/skips.png"
+                          src="./assets/skips.png"
                           alt=""
                           className="h-[140px] md:h-[200px] cursor-pointer"
                         />
@@ -99,7 +99,7 @@ const PageMemoryShow = ({ setPage }) => {
                     <div className="self-end place-self-center">
                       <label htmlFor="hard">
                         <img
-                          src="src/assets/antipops.png"
+                          src="./assets/antipops.png"
                           alt=""
                           className="h-[200px] md:h-[280px] cursor-pointer"
                         />
