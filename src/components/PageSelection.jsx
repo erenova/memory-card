@@ -15,9 +15,9 @@ const PageSelection = ({ setPage }) => {
     };
 
     const imageSources = [
-      "src/assets/memoryTimeCrew.png",
-      "src/assets/memoryShowCrew.png",
-      "src/assets/memoryTimeLogo.png",
+      process.env.PUBLIC_URL + "src/assets/memoryTimeCrew.png",
+      process.env.PUBLIC_URL + "src/assets/memoryShowCrew.png",
+      process.env.PUBLIC_URL + "src/assets/memoryTimeLogo.png",
     ];
 
     const imagePromises = imageSources.map(loadImage);

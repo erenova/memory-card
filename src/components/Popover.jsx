@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MdQuestionMark } from "react-icons/md";
 import { FaCaretDown } from "react-icons/fa";
 
-const Popover = ({ theme }) => {
+const Popover = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
